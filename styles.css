@@ -1,0 +1,521 @@
+/** Estilos generales**/
+html{
+    scroll-behavior: smooth;
+}
+
+html *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla', sans-serif;
+}
+
+p{
+    font-size: 1.3rem;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,li{
+    list-style: none;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1{
+    font-size: 2.8rem;
+}
+h2{
+    font-size: 2.5rem;
+}
+h3{
+    font-size: 2.2rem;
+}
+
+header {
+    background-color: #222;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem;
+}
+
+.logo {
+    margin: 0;
+    color: #07B76C;
+    margin-right: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px;
+}
+
+
+
+
+
+/* Estilos para la sección Hero */
+.hero {
+    background: url('img/background-img.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.cta-btn {
+    display: inline-block;
+    background-color: #4ad295; /* Color de botón de llamada a la acción */
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #3ca17f; /* Color de botón de llamada a la acción al pasar el cursor */
+}
+
+
+
+
+
+/** LOGO BRAND SECTION**/
+.section{
+    margin: 0.5rem 0;
+    
+}
+
+.section h2{
+    padding: 2rem 0;
+}
+
+.wrap-logos-section{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-brand{
+    width: 200px;
+    padding: 1rem 2rem;
+}
+
+.wrap-title-section{
+    display: flex;
+    justify-content: center;
+    margin: 3rem 1rem;
+}
+
+
+
+
+/* Estilos para la sección de Categorías de Servicios */
+.title-service{
+    text-align: center;
+}
+#categorias-servicios {
+    background-color: #f2f2f2;
+    padding: 50px;
+    text-align: center;
+}
+
+#categorias-servicios h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.categorias-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.categoria-card {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.2s ease;
+}
+
+.categoria-card:hover {
+    transform: translateY(-5px);
+}
+
+.categoria-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.categoria-card h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.categoria-card a {
+    text-decoration: none;
+    color: #333;
+}
+
+
+
+
+
+/* Estilos para la sección de Formulario de Contacto */
+.title-form{
+    text-align: center;
+}
+#contacto {
+    background-color: #f2f2f2;
+    padding: 50px;
+}
+
+.contacto-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.formulario-contacto {
+    flex: 1;
+    max-width: 400px;
+    padding: 20px;
+    text-align: left;
+    margin-bottom: 20px; /* Espacio entre el formulario y la imagen */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.submit-btn {
+    display: block;
+    width: 100%;
+    background-color: #4ad295;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.imagen-contacto {
+    flex: 1;
+    max-width: 400px;
+    margin-top: 20px;
+}
+
+.imagen-contacto img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin: 0 50px 0 50px;
+}
+
+
+/* FORMULARIO */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+
+
+
+/* Estilos para el Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer-column {
+    flex: 1;
+    max-width: 400px;
+    margin: 20px;
+}
+
+.footer-column h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-column p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.redes-sociales {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+}
+
+.red-social {
+    display: flex;
+    justify-content: center;
+}
+
+.red-social img {
+    width: 30px;
+    height: 30px;
+    padding: 3px;
+    transition: background-color 0.3s ease;
+}
+
+.red-social img:hover {
+    background-color: #4ad295;
+}
+
+
+
+
+
+/* Estilos específicos para dispositivos móviles */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column; /* Cambia la dirección del flex container en pantallas de celular */
+    }
+
+    .footer-column {
+        margin: 10px; /* Reduce el espacio entre las columnas en pantallas de celular */
+    }
+
+    .redes-sociales {
+        grid-template-columns: repeat(3, 1fr); /* Muestra los iconos en una fila en pantallas de celular */
+    }
+
+    .footer-column h3{
+        text-align: center;
+    }
+
+    .contacto-container {
+        flex-direction: column; /* Cambia la dirección del flex container en pantallas de celular */
+    }
+
+    .formulario-contacto {
+        margin-bottom: 0; /* Elimina el espacio inferior del formulario en pantallas de celular */
+    }
+
+    .imagen-contacto {
+        display: none; /* Oculta la imagen en pantallas de celular */
+    }
+
+
+}
+
+
+
+
+
+
+
+
+/* Estilos para el Menú Hamburguesa */
+.menu-hamburguesa {
+    display: none;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+}
+
+.linea {
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+}
+
+
+
+/** Whatsapp **/
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+.float:hover {
+	text-decoration: none;
+	color: #25d366;
+  background-color:#fff;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+
+
+
+
+
+
+
+/* Estilos específicos para dispositivos móviles */
+@media (max-width: 768px) {
+    .enlaces {
+        display: none; /* Oculta los enlaces en pantallas pequeñas */
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        right: 20px;
+        background-color: #333;
+        padding: 10px;
+    }
+
+    .enlaces li {
+        margin: 10px 0;
+    }
+
+    .menu-hamburguesa {
+        display: flex; /* Muestra el menú hamburguesa en pantallas pequeñas */
+    }
+
+    .categoria-card {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo {
+        margin-bottom: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+

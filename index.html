@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo-header">
+            <h1><a href="#" class="logo">GH</a></h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#quienes-somos">Quienes Somos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+ <!-- Sección Hero -->
+ <section class="hero">
+    <div class="hero-content">
+        <h1>Bienvenido a nuestra página web</h1>
+        <p>Somos expertos en consultoría ambiental, comprometidos con la sostenibilidad y protección del medio ambiente. Ofrecemos soluciones personalizadas para cumplir con regulaciones y promover prácticas responsables. Únete a nosotros para un futuro más verde.</p>
+        <a href="#contacto" class="cta-btn">Contáctanos</a>
+    </div>
+</section>
+
+<!-- BRAND IMG-->
+<section class="section logos-section">
+    <div class="wrap-logos-section">
+        <img src="img/logo-sanjuan-color.png" alt="" class="logo-brand">
+        <img src="img/argentina-presidencia.png" alt="" class="logo-brand">
+        <img src="img/Barrick_Gold_logo.svg.png" alt="" class="logo-brand">
+        <img src="img/logo-calnig.png" alt="" class="logo-brand">
+    </div>
+</section>
+
+
+<!-- Sección de Categorías de Servicios -->
+<section id="servicios">
+    <div class="title-service">
+        <h2>Categorías de Servicios</h2>
+    </div>
+    <div class="categorias-container">
+        <div class="categoria-card">
+            <a href="#categoria-1">
+                <img src="img/1.jpg" alt="Evaluación sobre impacto Ambiental">
+                <h3>Evaluación sobre impacto Ambiental</h3>
+            </a>
+        </div>
+        <div class="categoria-card">
+            <a href="#categoria-2">
+                <img src="img/2.jpg" alt="Evaluación sobre la calidad del agua">
+                <h3>Evaluación sobre la calidad del agua</h3>
+            </a>
+        </div>
+        <div class="categoria-card">
+            <a href="#categoria-3">
+                <img src="img/3.jpg" alt="Evaluación sobre Emisiones Gaseosas">
+                <h3>Evaluación sobre Emisiones Gaseosas</h3>
+            </a>
+        </div>
+        <div class="categoria-card">
+            <a href="#categoria-4">
+                <img src="img/4.jpg" alt="Evaluación sobre la calidad del aire">
+                <h3>Evaluación sobre la calidad del aire</h3>
+            </a>
+        </div>
+        <div class="categoria-card">
+            <a href="#categoria-5">
+                <img src="img/5.jpg" alt="Evaluación sobre suelos y sedimentos">
+                <h3>Evaluación sobre suelos y sedimentos</h3>
+            </a>
+        </div>
+        <div class="categoria-card">
+            <a href="#categoria-6">
+                <img src="img/6.jpg" alt="Evaluación sobre vibraciones">
+                <h3>Evaluación sobre vibraciones</h3>
+            </a>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Sección de Formulario de Contacto -->
+<section id="contacto">
+    <div class="contacto-container">
+        <!-- Columna Izquierda - Formulario de Contacto -->
+        <div class="formulario-contacto">
+            <div class="title-form">
+                <h2>Contacta con Nosotros</h2>
+            </div>
+            <form action="procesar_formulario.php" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre" required>
+                <br><br>
+                
+                <label for="asunto">Asunto:</label>
+                <input type="text" name="asunto" id="asunto" required>
+                <br><br>
+                
+                <label for="mensaje">Mensaje:</label>
+                <br>
+                <textarea name="mensaje" id="mensaje" rows="4" cols="40" required></textarea>
+                <br><br>
+                
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+
+        <!-- Columna Derecha - Imagen -->
+        <div class="imagen-contacto">
+            <img src="img/contacta.jpg" alt="Imagen de Contacto">
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="footer-container">
+        <!-- Primera Columna -->
+        <div class="footer-column">
+            <h3>GH</h3>
+            <p>Descripción de la empresa en unas 70 palabras. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tempus facilisis urna, sit amet sollicitudin mauris vestibulum in.</p>
+        </div>
+
+        <!-- Segunda Columna -->
+        <div class="footer-column">
+            <h3>Redes Sociales</h3>
+            <div class="redes-sociales">
+                <div class="red-social">
+                    <a href="https://www.linkedin.com/" target="_blank"><img src="img/LinkedIn_logo_initials.png" alt="Youtube"></a>
+                </div>
+                <div class="red-social">
+                    <a href="https://www.facebook.com/" target="_blank"><img src="img/Facebook_f_logo_(2019).svg.webp" alt="Facebook"></a>
+                </div>
+                <div class="red-social">
+                    <a href="https://www.instagram.com/" target="_blank"><img src="img/instagram-png.png" alt="Instagram"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <a href="https://api.whatsapp.com/send?phone=542645051024&text=Hola,%20que%20tal!" class="float" target="_blank">
+    <i class="fa fa-whatsapp my-float"></i>
+    </a>
+</body>
+</html>
